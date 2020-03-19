@@ -1,1 +1,5 @@
-Flask
+pycryptodomex
+telethon
+flask
+aiofiles
+aiohttp
