@@ -3,3 +3,5 @@ telethon
 flask
 aiofiles
 aiohttp
+pytz
+persiantools
