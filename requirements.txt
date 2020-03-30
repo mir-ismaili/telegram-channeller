@@ -1,7 +1,8 @@
 pycryptodomex
 telethon
-flask
 aiofiles
 aiohttp
 pytz
 persiantools
+pymongo
+dnspython

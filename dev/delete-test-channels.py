@@ -26,7 +26,8 @@ async def run():
 
     # You can print all the dialogs/conversations that you are part of:
     async for dialog in client.iter_dialogs():
-        if dialog.name == 'test*':
+        print(dialog.name, dialog.id)
+        if dialog.name.endswith('*'):
             await client(DeleteChannelRequest(dialog.id))
             print(f'{dialog.name}: deleted')
         else:
